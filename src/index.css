@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+div::-webkit-scrollbar {
+    width: 7px;
+    border-radius: 7px;
+}
+
+div::-webkit-scrollbar-track {
+    box-shadow: inset 10px 10px 10px 10px rgb(226 232 240);;
+    border: solid 3px rgb(226 232 240);
+}
+
+div::-webkit-scrollbar-thumb {
+    box-shadow: inset 10px 10px 10px 10px rgb(0, 0, 0);
+    border-top: 15px solid rgb(226 232 240);
+}
